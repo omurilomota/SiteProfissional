@@ -1,0 +1,22 @@
+# EditorConfig — https://editorconfig.org
+#
+# Este projeto é editado no VS Code, mas o .editorconfig garante que a regra de
+# formatação pertença ao repositório, e não às preferências pessoais da máquina.
+# Assim, qualquer IDE ou pessoa que abrir o projeto formata igual.
+
+root = true
+
+# Stack web (TS/React/CSS/JSON): 2 espaços, como já é o padrão do projeto.
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 2
+
+# Markdown: NÃO remover espaço no fim da linha.
+# Dois espaços no fim de uma linha significam quebra de linha em Markdown,
+# então removê-los altera o documento renderizado.
+[*.md]
+trim_trailing_whitespace = false
