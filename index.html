@@ -15,9 +15,9 @@
 
     <!--
       OpenGraph: como o link aparece no WhatsApp e no LinkedIn.
-      Depois do deploy, troque "/og-image.png" pela URL absoluta
-      (https://seu-endereco/og-image.png). Alguns coletores de preview não
-      resolvem caminho relativo e mostrariam o cartão sem imagem.
+      A imagem vai em URL ABSOLUTA, nunca como "/og-image.png": os coletores
+      de preview não resolvem caminho relativo e mostrariam o cartão sem
+      imagem. Ao apontar um domínio próprio, atualize este endereço.
     -->
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="pt_BR" />
@@ -27,7 +27,7 @@
       property="og:description"
       content="Projetos práticos em Java e Spring Boot. Em busca de uma oportunidade de estágio em desenvolvimento de software."
     />
-    <meta property="og:image" content="/og-image.png" />
+    <meta property="og:image" content="https://murilomota.vercel.app/og-image.png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta property="og:image:alt" content="Murilo — Desenvolvedor em formação" />
@@ -38,7 +38,7 @@
       name="twitter:description"
       content="Projetos práticos em Java e Spring Boot. Em busca de uma oportunidade de estágio em desenvolvimento de software."
     />
-    <meta name="twitter:image" content="/og-image.png" />
+    <meta name="twitter:image" content="https://murilomota.vercel.app/og-image.png" />
 
     <!--
       O domínio próprio entra aqui quando existir (mantenha no deploy).
