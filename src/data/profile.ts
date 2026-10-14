@@ -69,8 +69,8 @@ export const profile = {
     github: 'https://github.com/omurilomota',
     linkedin: null as string | null,
     email: 'murilohenriquemota935@gmail.com',
-    // TODO: suba o PDF do currículo em /public e aponte o caminho aqui.
-    resume: null as string | null,
+    // Gerado por `npm run curriculo` a partir dos próprios dados deste arquivo.
+    resume: '/curriculo.pdf' as string | null,
   },
 
   /** Real, do próprio perfil do GitHub. Falta só a previsão de conclusão. */
@@ -79,14 +79,18 @@ export const profile = {
     institution: 'ETEC Carmelina Barbosa',
     level: 'Ensino Médio integrado ao técnico',
     status: '3º ano — em andamento',
-    completion: null,
+    completion: 'Dezembro de 2026',
   } as Education,
 
-  /** TODO: só você sabe responder. É uma das três coisas que o recrutador procura. */
+  /**
+   * Confirmado pelo próprio autor. A carga horária fica em aberto de propósito:
+   * é o que se negocia na entrevista, e "a combinar" é mais honesto que um
+   * número inventado aqui.
+   */
   availability: {
-    shift: null,
-    hours: null,
-    mode: null,
+    shift: 'Noite e flexível',
+    hours: 'A combinar',
+    mode: 'Remoto',
   } as Availability,
 
   /**
