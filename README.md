@@ -86,6 +86,8 @@ O site é estático. Qualquer serviço que sirva arquivos estáticos funciona.
 
 ### Vercel (recomendado)
 
+**No ar em <https://murilomota.vercel.app>**, no projeto `murilomota` da conta.
+
 1. Importe o repositório em vercel.com.
 2. O framework é detectado automaticamente como Vite.
 3. O arquivo `vercel.json` já traz o rewrite que faz as rotas de `/projetos/...` funcionarem
