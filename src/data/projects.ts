@@ -49,7 +49,7 @@ export const projects: Project[] = [
     repoIsPublic: true,
     demo: null,
     screenshot: null,
-    evidence: ['1.384 linhas de Java', '22 endpoints em 4 controllers', '10 exceções de domínio'],
+    evidence: ['1.384 linhas de Java', '22 endpoints em 4 controllers', '29 testes de integração'],
     detail: {
       problem:
         'Uma sorveteria precisa controlar sabores, produtos e pedidos sem planilha, e sem expor os dados dos clientes. O objetivo do projeto era treinar Java e Spring Boot em um domínio com regras de verdade: preço, estoque, composição de pedido e mudança de status.',
@@ -64,7 +64,7 @@ export const projects: Project[] = [
         { text: 'Senhas armazenadas com hash BCrypt', state: 'pronto' },
         { text: 'CPF mascarado nas respostas (123.***.***-45)', state: 'pronto' },
         { text: 'Documentação da API com OpenAPI', state: 'pronto' },
-        { text: 'Testes de integração dos endpoints', state: 'planejado' },
+        { text: 'Testes de integração dos quatro controllers, com transações revertidas', state: 'pronto' },
         { text: 'PostgreSQL com migrações versionadas no lugar do H2 em memória', state: 'planejado' },
         { text: 'Ambiente público para avaliação', state: 'planejado' },
       ],
@@ -83,9 +83,8 @@ export const projects: Project[] = [
         },
       ],
       next: [
-        'Testes de integração cobrindo os endpoints principais (hoje existe apenas o teste de contexto)',
         'Trocar o H2 em memória por PostgreSQL com migrações versionadas',
-        'Publicar o repositório e uma instância acessível para avaliação',
+        'Publicar uma instância acessível para avaliação',
       ],
     },
   },
