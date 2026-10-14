@@ -234,7 +234,9 @@ export const projects: Project[] = [
     repo: 'https://github.com/omurilomota/petshop-Chic',
     repoIsPublic: true,
     demo: null,
-    screenshot: null,
+    // Composta com a mesma captura em desktop (16:10, a proporção do cartão) e
+    // em celular emoldurado — mostra a responsividade numa imagem só.
+    screenshot: '/projetos/chicpets.webp',
     evidence: ['31 commits em 2 dias', 'integração contínua configurada', 'site de uma página só'],
     detail: {
       problem:
