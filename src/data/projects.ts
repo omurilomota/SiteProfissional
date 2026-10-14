@@ -238,7 +238,7 @@ export const projects: Project[] = [
     // Composta com a mesma captura em desktop (16:10, a proporção do cartão) e
     // em celular emoldurado — mostra a responsividade numa imagem só.
     screenshot: '/projetos/chicpets.webp',
-    evidence: ['31 commits em 2 dias', 'integração contínua configurada', 'site de uma página só'],
+    evidence: ['36 commits em 2 dias', 'integração contínua configurada', 'site de uma página só'],
     detail: {
       problem:
         'Um negócio local precisava de presença na internet que funcionasse no celular e levasse o cliente direto ao WhatsApp, sem depender de alguém editar código para trocar telefone, endereço ou horário.',
