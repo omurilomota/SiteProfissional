@@ -99,12 +99,15 @@ export const profile = {
       items: [
         'Java 21',
         'Spring Boot',
-        'Spring Security (JWT)',
+        'Spring Security',
         'JPA / Hibernate',
+        'PostgreSQL',
+        'Flyway',
         'Bean Validation',
         'OpenAPI',
         'Maven',
         'JUnit',
+        'Testcontainers',
       ],
     },
     {
