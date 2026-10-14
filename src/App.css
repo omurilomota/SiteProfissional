@@ -435,6 +435,11 @@
   margin-top: 1.75rem;
 }
 
+/* Quem chega direto na página do projeto precisa ver a stack também: */
+.detail__stack {
+  margin-top: 1.5rem;
+}
+
 .detail__metrics {
   display: flex;
   flex-wrap: wrap;

@@ -36,6 +36,12 @@ export function ProjectDetail() {
             ))}
           </ul>
 
+          <ul className="chips detail__stack" aria-label="Tecnologias usadas no projeto">
+            {project.stack.map((tech) => (
+              <li key={tech}>{tech}</li>
+            ))}
+          </ul>
+
           <div className="detail__actions">
             {project.repoIsPublic && (
               <ExternalLink className="btn btn--primary" href={project.repo}>
