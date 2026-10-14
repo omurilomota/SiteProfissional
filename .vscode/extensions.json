@@ -1,0 +1,15 @@
+{
+  // O .gitignore deste projeto já libera este arquivo explicitamente
+  // (".vscode/*" + "!.vscode/extensions.json"), ou seja, ele era previsto
+  // e nunca existiu. Serve para quem clonar o repositório receber a sugestão
+  // das extensões certas em vez de descobrir por tentativa.
+  "recommendations": [
+    // O lint deste projeto roda com oxlint ("npm run lint"). Sem esta extensão,
+    // os avisos do oxlint não aparecem no editor — só no terminal.
+    "oxc.oxc-vscode",
+    // Aplica as regras de .editorconfig do repositório.
+    "editorconfig.editorconfig",
+    // Formatação automática (hoje inativa: falta um arquivo de config do Prettier).
+    "esbenp.prettier-vscode"
+  ]
+}
