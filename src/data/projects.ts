@@ -57,8 +57,10 @@ export const projects: Project[] = [
     ],
     repo: 'https://github.com/omurilomota/Sorveteria-API',
     repoIsPublic: true,
+    // Sem demonstração pública: a API exige banco e não expõe servidor aberto.
     demo: null,
-    screenshot: null,
+    // Swagger UI da própria API em execução local, com os endpoints documentados.
+    screenshot: '/projetos/sorveteria-api.webp',
     evidence: [
       '1.379 linhas de Java',
       '22 endpoints em 4 controllers',
@@ -131,8 +133,10 @@ export const projects: Project[] = [
     ],
     repo: 'https://github.com/omurilomota/Olho-Eletronico',
     repoIsPublic: true,
-    demo: null,
-    screenshot: null,
+    // Verificado em 14/10/2026: responde HTTP 200 na Vercel.
+    demo: 'https://olho-eletronico.vercel.app',
+    // Captura da tela inicial (1600×1000, a proporção do cartão).
+    screenshot: '/projetos/olho-eletronico.webp',
     evidence: ['116 commits em 3 semanas', '9 arquivos de teste + 3 suítes end-to-end', 'interface em 3 idiomas'],
     detail: {
       problem:
@@ -181,8 +185,10 @@ export const projects: Project[] = [
     stack: ['Godot 4', 'GDScript', 'A* (pathfinding)', 'Máquina de estados'],
     repo: 'https://github.com/omurilomota/estacionamento-automatico-godot',
     repoIsPublic: true,
-    demo: null,
-    screenshot: null,
+    // Verificado em 14/10/2026: build web publicada na Vercel, responde HTTP 200.
+    demo: 'https://estacionamento-automatico.vercel.app',
+    // Captura da tela inicial (1600×1000, a proporção do cartão).
+    screenshot: '/projetos/estacionamento-autonomo.webp',
     evidence: [
       '152 commits em 7 semanas',
       'projeto em equipe de 3 pessoas',
