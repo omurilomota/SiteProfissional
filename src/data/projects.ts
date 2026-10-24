@@ -136,7 +136,7 @@ export const projects: Project[] = [
     // Verificado em 14/10/2026: responde HTTP 200 na Vercel.
     demo: 'https://olho-eletronico.vercel.app',
     // Captura da tela inicial (1600×1000, a proporção do cartão).
-    screenshot: '/projetos/olho-eletronico.webp',
+    screenshot: '/projetos/olho-eletronico.png',
     evidence: ['116 commits em 3 semanas', '9 arquivos de teste + 3 suítes end-to-end', 'interface em 3 idiomas'],
     detail: {
       problem:
