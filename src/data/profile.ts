@@ -64,10 +64,10 @@ export const profile = {
     'Mantenho projetos autorais dos dois lados — APIs REST e aplicações web — e uso cada um para testar uma tecnologia ou uma decisão de arquitetura nova.',
   ],
 
-  // TODO: preencher o LinkedIn quando o perfil estiver organizado.
+  // LinkedIn preenchido em 24/10/2026 (fonte: README do perfil do GitHub).
   links: {
     github: 'https://github.com/omurilomota',
-    linkedin: null as string | null,
+    linkedin: 'https://www.linkedin.com/in/murilo-henrique-622354358/',
     email: 'murilohenriquemota935@gmail.com',
     // Gerado por `npm run curriculo` a partir dos próprios dados deste arquivo.
     resume: '/curriculo.pdf' as string | null,

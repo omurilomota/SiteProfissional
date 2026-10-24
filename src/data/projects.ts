@@ -239,8 +239,8 @@ export const projects: Project[] = [
     stack: ['React 19', 'TypeScript', 'Vite', 'Tailwind CSS', 'GitHub Actions'],
     repo: 'https://github.com/omurilomota/petshop-Chic',
     repoIsPublic: true,
-    // Verificado em 13/10/2026: responde HTTP 200 pelo Cloudflare Workers.
-    demo: 'https://petshop-chic.murilohenriquemota935.workers.dev',
+    // Verificado em 24/10/2026: responde HTTP 200 na Vercel.
+    demo: 'https://petshop-chic.vercel.app',
     // Composta com a mesma captura em desktop (16:10, a proporção do cartão) e
     // em celular emoldurado — mostra a responsividade numa imagem só.
     screenshot: '/projetos/chicpets.webp',
