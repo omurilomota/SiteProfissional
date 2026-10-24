@@ -20,7 +20,7 @@
   position: sticky;
   top: 0;
   z-index: 20;
-  background: rgb(255 255 255 / 88%);
+  background: color-mix(in srgb, var(--bg) 88%, transparent);
   backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--border);
 }
@@ -254,7 +254,7 @@
 }
 
 .project-card--featured {
-  border-color: #cddcff;
+  border-color: var(--accent-weak);
 }
 
 @media (min-width: 900px) {
@@ -578,4 +578,29 @@
   .section {
     scroll-margin-top: 7.5rem;
   }
+}
+
+/* ==========================================================================
+   Botão de alternância de tema
+   ========================================================================== */
+
+.theme-toggle {
+  margin-left: 0.75rem;
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  font-size: 1rem;
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background var(--transition), border-color var(--transition), color var(--transition);
+}
+
+.theme-toggle:hover {
+  border-color: var(--border-strong);
+  background: var(--accent-weak);
 }
